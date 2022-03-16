@@ -1,0 +1,58 @@
+cpp statements-
+
+1=>   sequential statements-line by line/
+ int main(){
+int a,b,s; \\variable declaration
+a=2;\\ assigning the value to variables
+b=3;
+s=a+b;
+cout<<s; \\print }
+
+2=> decision making /branching/conditional statement will be ececuted based on some condition
+-if
+-if else
+-else if ladder
+-nested if 
+-switch
+
+if syntax:> if(conditio)
+             {code block} \\ if condition is true
+            else{ code block} \\ if condition is false
+
+else if ladder:> if (condition){ code;}
+                 else if (condition 2){code;}
+                 .............................
+                 .............................
+                 else {default block}
+ switch case:>  
+             int main(){
+             int a=2;
+             switch (a){  case 1:
+             cout<< "block 1"
+                   break;          \\break takes the control of the program to the end
+             case 2: 
+             cout<<"block 2;
+             default:
+             cout<<"invalid input"}
+             }
+
+nested if :>   if (condition 1){
+                if (condition 2){      \\ iner "if" will only work if outer "if" condition is true
+                   code block}
+                           }
+           
+TERNARY OPERATOR:> \\ 3 operator
+ variable =(condition)? True : False;       int main(){
+                                                        int a, int b;
+                                                        var=(a>b)?a:b;
+                                                          cout<<var;
+                                                                    }
+
+ 
+
+
+
+
+
+             
+
