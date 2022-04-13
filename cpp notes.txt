@@ -1,4 +1,4 @@
-cpp statements-
+ cpp statements-
 
 1=>   sequential statements-line by line/
  int main(){
@@ -13,7 +13,7 @@ cout<<s; \\print }
 -if else
 -else if ladder
 -nested if 
--switch
+-switch case
 
 if syntax:> if(conditio)
              {code block} \\ if condition is true
@@ -47,6 +47,71 @@ TERNARY OPERATOR:> \\ 3 operator
                                                         var=(a>b)?a:b;
                                                           cout<<var;
                                                                     }
+
+3=> JUMPING STATEMENT:           //execute a block
+   
+                     break,continue,goto
+
+4=>LOOP=>   //execute certain group of statemenet repeatedly   // [loop->   1.initialization,2.condition check,3.increment/decrement]
+
+>>>loops:> 
+   >while:(entry controlled loop) //   int main(){while(i<=3){
+                                       cout<<i<<endl;
+                                       i++} return }
+
+> do while loop(exit condition    (executed atleast once even if the condition is false)):>  //   int main(){int i; do{cout<<i<<endl;
+                                                                                                                        i++;}while(i>=3);      
+                                                                                                                        return 0; }
+ > for loop>
+     //        int main(){ for(int i=1;i>=3;i++)
+                              {cout<<i<<endl;}
+                                      return 0;}
+                                                                                                          
+>>> break:>   int main(){ for( int i=1;i>=3;i++)
+                                if(i==3){break;}       ///// output== 1,2   
+                              {cout<<i<<endl;}
+                                      return 0;}
+>>> continue:> int main()
+{
+    for (int i = 1; i <= 5; i++)
+    {
+        if (i == 3)
+        {                                   ////output==1,2,4,5
+            continue;
+        }
+        cout << i << endl;
+    }
+    return 0;
+}
+
+POINTERS:> variable which points to a value at particular address  \\ &>address of 
+                                                                    \\ *> value at address
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   
+
+
+
+
+
 
  
 

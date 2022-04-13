@@ -6,7 +6,7 @@ long long int addition(int n){
     for(int i = 2;i <= n;i++){
         f *= i;
     }
-    return f;
+    return f;         
 }
 
 int main(){
