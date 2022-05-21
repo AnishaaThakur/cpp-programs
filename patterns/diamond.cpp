@@ -28,10 +28,16 @@ int main()
                 cout << " ";
                 sp++;
             }
+            while (j)
+            {
+                /* code */
+            }
+            
         }
 
         cout << endl;
         i++;
+        
     }
 
     return 0;
